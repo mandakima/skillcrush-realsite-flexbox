@@ -1,51 +1,73 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>A little about me.</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro:400,700" rel="stylesheet">
-    </head>
-    <body>
-        <!--[if lt IE 8]>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-       
-        <!-- Add your site or application content here -->
-        <section class="wrapper">
-            <div class="div-1">
-                <p>I was born and raised in NYC, but <span>my real roots</span> reach to South America. I owe my travel bug to being a first generation American with family all over the world - we were always on the go!</p>
-            </div>
-            <div class="div-2">
-                <p><span>My passion:</span> I LOVE music - it's one of the most powerful and diverse methods for expression & communication. In the meantime, I get my fix by going to lots & lots of concerts. I'm at 160 and counting!</p>
-            </div>
-            <div class="div-3">
-                <p><span>A fun fact:</span> As a true New Yorker, I'm slightly embarrased to say that I only learned how to ride a plain ol' stationary bike 1 year ago, and have yet to learn to drive. But, the real takeaway is that I'm learning!</p>
-            </div>
-        </section>    
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+    <!-- Add your site or application content here -->
+    <section class="flex-container">
+        <header>
+            <h1>Hello! I'm Amanda 👋</h1>
+        </header>
+        <main>
+            <p>I am a <span>Front-End Developer and Designer</span> based in Washington State. When I'm not
+                working, I can be found playing video games, mindlessly scrolling through Zillow, and reading psychology articles. </p>
+        </main>
+        <div id="div-1" class="flex-items">
+            <p><span>Video Games are Cool!</span> The first game I ever played was Super Mario World on the Super Nintendo. It took me
+            a whole year to beat the game, though I never beat the Special Zone because it was pretty intense for an elementary student. I'm currently playing Persona 5 (and anxiously waiting for the new Zelda game).</p>
+        </div>
+        <div id="div-2" class="flex-items">
+            <p><span>Mindlessly Scrolling ... Zillow?</span> I'll admit that I mindlessly scroll through fancy homes around my neighborhood that I can't afford and wonder about why everything is so expensive
+            and question the housing designs. Popcorn ceilings? Yikes. 🍿</p>
+        </div>
+        <div id="div-3" class="flex-items">
+            <p><span>Why Psychology Articles?</span> When I first started taking a psychology class in high school, I find it intriguing because I get to understand people more.
+            As time progressed, I genuinely wanted to understand my thought process. You can say that I'm own case study. Also, personality typing is fun. 😉</p>
+        </div>
+        <footer>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-pinterest"></i>
+        </footer>
+    </section>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+            (function (b, o, i, l, e, r) {
+                b.GoogleAnalyticsObject = l; b[l] || (b[l] =
+                    function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
+                e = o.createElement(i); r = o.getElementsByTagName(i)[0];
+                e.src = 'https://www.google-analytics.com/analytics.js';
+                r.parentNode.insertBefore(e, r)
+            }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X', 'auto'); ga('send', 'pageview');
+    </script>
+</body>
+
 </html>
